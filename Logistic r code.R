@@ -20,3 +20,4 @@ loyalty$predict1<-ifelse(loyalty$predict1>0.5,1,0)
 # Evaluating model accuracy
 # using confusion matrix
 table(loyalty$predict1, Loyalty)
+detach(loyalty)
